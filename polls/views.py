@@ -26,7 +26,7 @@ def predict(request):
         with model_graph.as_default():
             with tf_session.as_default():
                 result = model.predict_proba(pad_sequence)
-                print(result)
+                # print(result)
         response = helperFunction(result[0])
     else:
         print("Error")
