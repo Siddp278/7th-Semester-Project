@@ -27,6 +27,7 @@ Lastly, we intantiate the BilSTM model, using the sequential wrapper class. Once
  ### 2. Deploying on `Heroku`:
  Once developed, we deploy the web application on Heroku platform.
  
- **Link to site**: https://sentiment-analysis-bilstm.herokuapp.com/
  
- NOTE: The site takes time to load, this is due to the fact that BiLSTM is a heavy model for the free version of heroku hardware.
+ 
+ **Link to site**: https://sentiment-analysis-bilstm.herokuapp.com/
+  NOTE: The site takes time to load, this is due to the fact that BiLSTM is a heavy model for the free version of heroku hardware.
